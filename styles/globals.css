@@ -139,3 +139,11 @@ nav {
     @apply bg-day bg-opacity-90 dark:bg-night dark:bg-opacity-90;
   }
 }
+
+.header_logo {
+ font-variation-settings:"wght" 900;
+ font-weight:500;
+ line-height:1rem;
+ text-align:left;
+ color:white;
+}
