@@ -1,8 +1,8 @@
 const BLOG = {
-  title: 'drmarmar',
+  title: 'drmarmar - Offensive Security Blog',
   author: 'Mario Ibarra',
   email: 'ibarramario94@gmail.com',
-  link: 'https://nobelium.vercel.app',
+  link: 'https://nobelium-drmarmar.vercel.app',
   description: 'Offensive security blog.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'dark', // ['light', 'dark', 'auto'],
@@ -12,14 +12,14 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 7,
-  sortByDate: false,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: true, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image.vercel.app/.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-bw-logo.svg&widths=200', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: '', // The link to generate OG image, don't end with a slash
   socialLink: '',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Notion', 'Hacking', 'Offensive Security'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
