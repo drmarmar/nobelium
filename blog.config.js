@@ -2,7 +2,7 @@ const BLOG = {
   title: 'drmarmar - Offensive Security Blog',
   author: 'Mario Ibarra',
   email: 'ibarramario94@gmail.com',
-  link: 'https://nobelium-drmarmar.vercel.app',
+  link: 'https://drmarmar.com',
   description: 'Offensive security blog.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'dark', // ['light', 'dark', 'auto'],
