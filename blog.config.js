@@ -26,14 +26,14 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
-    provider: 'ackee', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: 'https://67.205.160.40/tracker.js', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: 'https://67.205.160.40', // e.g https://ackee.craigary.net , don't end with a slash
       domainId: '1ae235c3-1414-481a-b7e3-ff4293d568bf' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'UA-171411024-1' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
